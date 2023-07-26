@@ -15,7 +15,7 @@
 
 html, body{
     height: 100%;
-    overflow-y: hidden ;
+    overflow-y: hidden;
 }
 
 header{
@@ -28,7 +28,7 @@ header{
 }
 
 .menu{
-    padding-top: 30;
+    padding-top: 30px;
     width: 50%;
     text-align: right;
 }
