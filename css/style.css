@@ -16,9 +16,11 @@
 html, body{
     height: 100%;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 header{
+    height: 200px;
     padding: 20px 0;
 }
 
@@ -36,6 +38,32 @@ header{
 .menu a{
     color: black;
     text-decoration: none;
-    font-weight: bold;
-     
+    font-weight: bold;    
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -550px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-media{
+    position: absolute;
+    right: 510px;
+    top: 80px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 10px 0;
 }
